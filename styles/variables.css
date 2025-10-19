@@ -1,0 +1,29 @@
+:root {
+    --color-light: #ffffff;
+    --color-light-alt: #F9F8FE;
+    --color-dark: #000000;
+    --color-gray: #676767;
+
+    --transparent: transparent;
+
+    --font-inter: 'Inter', sans-serif;
+    --font-montser: 'Montserrat', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    --container-width: 1280px;
+    --container-padding-x: 20px;
+
+    --section-padding-y: 89px;
+
+
+
+    --button-height: 40px;
+    --input-height: 40px;
+
+    --border: 1px solid var(--color-dark);
+    --border-radius: 8px;
+
+    --transition-duration: 0.2s;
+
+
+}

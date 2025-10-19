@@ -1,0 +1,18 @@
+.actions {
+    display: flex;
+    column-gap: 24px;
+    margin: 48px 0;
+}
+
+.actions__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+span.actions__item-title {
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 160%;
+}

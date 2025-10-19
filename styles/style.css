@@ -1,0 +1,17 @@
+@import url("./globals.css");
+@import url("./variables.css");
+@import url("./normalize.css");
+@import url("./fonts.css");
+@import url("./utils.css");
+
+@import url("./blocks/header.css");
+@import url("./blocks/background.css");
+@import url("./blocks/section.css");
+@import url("./blocks/actions.css");
+@import url("./blocks/revolutionize.css");
+@import url("./blocks/discover.css");
+@import url("./blocks/banner.css");
+@import url("./blocks/statistics.css");
+@import url("./blocks/updates.css");
+@import url("./blocks/connect.css");
+@import url("./blocks/footer.css");

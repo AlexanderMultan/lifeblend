@@ -1,0 +1,56 @@
+.container {
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-x);
+}
+
+
+
+.button--dark {
+    height: var(--button-height);
+    padding-inline: 24px;
+    font-size: 14px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    line-height: 1;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.button--dark:hover {
+    background-color: var(--transparent);
+    color: var(--color-dark);
+}
+
+.button--transparent {
+    height: var(--button-height);
+    padding-inline: 24px;
+    font-size: 14px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    line-height: 1;
+    background-color: var(--transparent);
+    color: var(--color-dark);
+}
+
+.button--transparent:hover {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

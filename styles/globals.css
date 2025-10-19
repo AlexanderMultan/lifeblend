@@ -1,0 +1,48 @@
+body {
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 18px;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
+
+a,
+button,
+input,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128%;
+    font-family: var(--font-montser);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+h3 {
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+input {
+    border: none;
+    outline: none;
+}

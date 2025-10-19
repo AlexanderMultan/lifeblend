@@ -1,0 +1,26 @@
+
+.discover__inner {
+    margin-bottom: 48px;
+}
+
+.discover__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 48px;
+    margin: 80px 0;
+}
+
+.discover__list--item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    max-width: 395px;
+}
+
+.discover__list--image {
+    border-radius: var(--border-radius);
+}
+
+
+

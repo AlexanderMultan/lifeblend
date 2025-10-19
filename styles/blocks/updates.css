@@ -1,0 +1,36 @@
+.updates {
+    text-align: center;
+}
+
+.updates__title {
+    margin-bottom: 16px;
+}
+
+.updates__subtitle {
+    margin-bottom: 48px;
+}
+
+.updates__warning {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-gray);
+}
+
+.updates__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.updates__form--input {
+    height: var(--input-height);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-dark);
+    padding-inline: 16px;
+    width: 373px;
+    font-family: var(--font-inter);
+}
