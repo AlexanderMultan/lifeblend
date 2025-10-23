@@ -45,3 +45,9 @@
 .banner__card--link:hover {
     scale: 1.2;
 }
+
+@media(max-width: 1145px) {
+    .banner__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

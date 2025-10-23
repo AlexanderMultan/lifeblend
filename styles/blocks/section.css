@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 80px;
+    gap: 80px;
 }
 
 .section__title {
@@ -50,4 +50,11 @@
 
 .section__buttons a:hover {
     scale: 1.2;
+}
+
+
+@media(max-width: 1145px) {
+    .section__inner {
+        flex-direction: column;
+    }
 }

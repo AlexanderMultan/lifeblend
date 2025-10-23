@@ -16,3 +16,9 @@ span.actions__item-title {
     font-size: 52px;
     line-height: 160%;
 }
+
+@media (max-width: 1145px) {
+    span.actions__item-title {
+        font-size: 32px;
+    }
+}

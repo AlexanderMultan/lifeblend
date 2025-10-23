@@ -40,3 +40,9 @@
     margin-top: 208px;
     border-radius: var(--border-radius);
 }
+
+@media(max-width: 1145px) {
+    .connect__image {
+        margin-top: 0;
+    }
+}
